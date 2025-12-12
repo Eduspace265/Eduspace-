@@ -1,0 +1,105 @@
+html, body {
+        <img src="backgalaxy.jpg" alt="....">   height: 100%; 
+            margin: auto;  
+            background-image: url('backstars.jpg');
+            background-size: cover; 
+            background-position: center;
+        width: 600px
+        }
+        button {
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        h1 {
+            color: white;
+            font-size: 50px;
+                border:1px solid white;
+                text-align: center;
+        }
+
+       h2, h3 {
+                color: white;
+        }
+        .tab {
+            display: none; 
+        }
+        
+        .tab.active {
+            display: block;
+        }
+        
+        .tab-button {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        
+        .tab-button.active {
+            background-color: #ddd; 
+        }
+        p1 {
+            color: orange
+        }
+        p,li {
+            color: yellow;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 5px;
+      display: inline-block;
+      line-height: 1.6;
+      margin-bottom: 15px;
+        }
+        footer {
+            font-size: 10px;
+            color: deepskyblue;
+        }
+            tab6, h6 {
+             font-size: 20px;
+            }    
+    tab1, h2 {
+            font-size: 30px;
+        }
+     tab3, h3 {
+             font-size: 20px;
+            }      
+           tab4, h4 {
+             font-size: 20px;
+            }   
+    tab5, h5 {
+             font-size: 20px;
+            }   
+    tab6, h6 {
+             font-size: 20px;
+    }
+.fade-in-title {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        
+        animation: fadeIn 1.5s forwards;
+}
+.fade-in-text {
+        opacity: 0;
+        transition: opacity 10s ease-in-out;
+        
+        animation: fadeIn 3s forwards;
+}
+.sth {
+        opacity: 0;
+        transition: opacity 10s ease-in-out;
+        
+        animation: fadeIn 4.9s forwards;
+}
+
+.fade {
+        opacity: 0;
+        transition: opacity 10s ease-in-out;
+        
+        animation: fadeIn 2.5s forwards;
+}
+
+@keyframes fadeIn {
+        from {opacity:0; }
+        to {opacity:1; }
+}
+
